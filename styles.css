@@ -1,0 +1,60 @@
+.btn {
+    width: 120px;
+    height: 35px;
+    margin: 0.5rem;
+    line-height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    transition: all 0.35s;
+    box-sizing: border-box;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn-style {
+    background-image: linear-gradient(to right, #e7e7e7 0%, #eeeeee 51%, #e7e7e7 100%);
+    background-size: 200% auto;
+    background-position: left top;
+    border-color: transparent;
+    color: #464646;
+    &:hover {
+      background-position: right bottom;
+      color: #000;
+    }
+}
+
+.baseBtn {
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    color: #000;
+    transition: all 0.35s;
+    box-sizing: border-box;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    margin: 0.5rem;
+    font-size: 16px;
+}
+
+.baseBtn:hover {
+    cursor: pointer;
+}
+
+.baseBtn-style {
+    background-image: linear-gradient(to right, #e7e7e7 0%, #eeeeee 51%, #e7e7e7 100%);
+    background-size: 200% auto;
+    background-position: left top;
+    border-color: transparent;
+    color: #464646;
+    &:hover {
+      background-position: right bottom;
+      color: #000;
+    }
+}
+
